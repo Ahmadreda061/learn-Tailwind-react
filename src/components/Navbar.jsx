@@ -29,7 +29,8 @@ function Navbar() {
             <div className={`${!activeMenu && "left-[-100%]" } fixed left-0 top-0 w-[60%]  h-full transition-all duration-300 bg-[#111] sm:hidden`}>
                 <h1 className="w-full text-3xl font-bold text-[#00df9a] m-6">REACT.</h1>
                 <ul className="pt-6 uppercase ">
-                    {navItemElements(2)}
+                {/* todo fix bug the border not show */}
+                    {navItemElements(2)} 
                 </ul>
             </div>
         </div>

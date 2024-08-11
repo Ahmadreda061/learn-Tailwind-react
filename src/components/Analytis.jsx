@@ -18,7 +18,7 @@ function Analytis() {
                         at assumenda mollitia a optio temporibus nulla adipisci? Reprehenderi
                         t sunt minima similique corrupti a!
                     </p>
-                    <button className='bg-black text-white custom-btn mx-auto md:mx-0'>Get Started</button>
+                    <button className='bg-black text-[#00df9a] custom-btn mx-auto md:mx-0 hover:bg-[#00df9a] hover:text-black'>Get Started</button>
                 </div>
             </div>
         </section>
