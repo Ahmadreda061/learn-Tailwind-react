@@ -6,3 +6,18 @@
 .container {
     @apply max-w-[1240px]
 }
+.custom-text-xl {
+    @apply md:text-7xl sm:text-6xl text-4xl
+}
+
+.custom-text-lg {
+    @apply md:text-4xl sm:text-3xl text-2xl
+}
+
+.custom-text-md {
+    @apply md:text-5xl sm:text-4xl text-xl
+}
+
+.custom-transition-colors {
+    @apply transition-colors ease-in-out duration-300
+}
