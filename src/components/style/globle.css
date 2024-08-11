@@ -1,5 +1,5 @@
 .custom-btn {
-    @apply font-medium w-[200px] p-4 my-6 rounded-md hover:bg-white transition-colors ease-in-out duration-300;
+    @apply font-medium w-[200px] p-4 my-6 rounded-md transition-colors ease-in-out duration-300;
 
 }
 
