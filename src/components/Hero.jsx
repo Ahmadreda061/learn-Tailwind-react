@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactTyped } from "react-typed"
+import './style/globle.css'
 function Hero() {
   return (
     <header  className="text-white ">
@@ -26,7 +27,7 @@ function Hero() {
         <p className='md:text-2xl sm:text-xl text-lg py-4 text-gray-500 md:w-full w-[80%] mx-auto'>
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.
         </p>
-        <button className='bg-[#00df9a] font-medium w-[200px] mx-auto p-4 my-6 rounded-md text-black hover:bg-white transition-bg ease-in-out duration-300'>
+        <button className='bg-[#00df9a] mx-auto text-black custom-btn'>
           Get Started
         </button>
       </div>
