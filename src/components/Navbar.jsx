@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
+import './style/globle.css'
 const navItems = ["Home", "Company", "Resources", "About", "Contact"];
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
         <li key={index} className={`p-4 pl-8 cursor-pointer border-b-${btm} border-b-gray-600`}>{item}</li>
     )
     return (
-        <div className="text-white flex justify-between items-center max-w-[1240px] mx-auto px-4 h-24">
+        <div className="text-white flex justify-between items-center container  mx-auto px-4 h-24">
             <h1 className="w-full text-3xl font-bold text-[#00df9a] ">REACT.</h1>
             <ul className="hidden sm:flex">
                 {navItemElements(0)}
